@@ -1,0 +1,16 @@
+
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+        bind:
+
+    KimaiPlugin\FavouriteTimesheetApiBundle\Controller\:
+        resource: '../../Controller'
+        tags: ['controller.service_arguments']
+
+    KimaiPlugin\FavouriteTimesheetApiBundle\:
+        resource: '../../*'
+        exclude: '../../{Resources}'

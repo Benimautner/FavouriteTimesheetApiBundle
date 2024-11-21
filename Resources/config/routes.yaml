@@ -1,0 +1,4 @@
+favouritetimesheetapi.api:
+    resource: "@FavouriteTimesheetApiBundle/Controller/"
+    type: attribute
+    prefix: /api

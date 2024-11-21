@@ -1,0 +1,21 @@
+{
+    "name": "benimautner/favouritetimesheetapibundle",
+    "description": "A simple plugin adding an api endpoint for Kimai",
+    "homepage": "https://github.com/benimautner",
+    "type": "kimai-plugin",
+    "version": "0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benimautner",
+            "email": "benimautner@gmail.com",
+            "homepage": "https://github.com/benimautner"
+        }
+    ],
+    "extra": {
+        "kimai": {
+            "require": 20000,
+            "name": "FavouriteTimesheetApi"
+        }
+    }
+}
